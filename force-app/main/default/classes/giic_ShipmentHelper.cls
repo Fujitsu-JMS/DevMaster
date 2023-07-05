@@ -65,7 +65,7 @@ public with sharing class giic_ShipmentHelper {
         // return [SELECT id,gii__SalesOrder__r.Id, gii__SalesOrder__r.gii__Carrier__r.Name FROM gii__Shipment__c WHERE Id = :recordId];
         // 
         if(shipmentInfo.giic_Integration_Status__c == 'PLS Shipment API completed Successfully' || shipmentInfo.giic_Integration_Status__c == 'FedEx Integration completed successfully'){
-            throw new AuraHandledException('Shipment Label Is Already Generated');
+            throw new AuraHandledException('Shipment Label is Already Generated');
         }
         
         
