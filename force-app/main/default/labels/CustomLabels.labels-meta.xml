@@ -1,0 +1,2001 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Campaign_Target_Email_Address</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Campaign Target Email Address</shortDescription>
+        <value>josh.morehart@jmsmucker.com</value>
+    </labels>
+    <labels>
+        <fullName>EMPTY_FILE</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CSV file is empty.</shortDescription>
+        <value>CSV file is empty.</value>
+    </labels>
+    <labels>
+        <fullName>ERROR_JSON_BAD_FORMAT</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>The provided Json String was badly formatted.</shortDescription>
+        <value>The provided Json String was badly formatted.</value>
+    </labels>
+    <labels>
+        <fullName>ERROR_JSON_EMPTY</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No field values were found in the Json String.</shortDescription>
+        <value>No field values were found in the Json String.</value>
+    </labels>
+    <labels>
+        <fullName>ERROR_OP_FAILED</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Operation failed, please check messages!</shortDescription>
+        <value>Operation failed, please check messages!</value>
+    </labels>
+    <labels>
+        <fullName>ERROR_REQUEST_FAILED_NO_ERROR</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Request failed with no specified error.</shortDescription>
+        <value>Request failed with no specified error.</value>
+    </labels>
+    <labels>
+        <fullName>ERROR_UNAUTHORIZED_ENDPOINT</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Unauthorized endpoint, please check Setup</shortDescription>
+        <value>Unauthorized endpoint, please check Setup</value>
+    </labels>
+    <labels>
+        <fullName>ER_Approval_Msg_For_Equipment_Integrity</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ER Approval Msg For Equipment Integrity</shortDescription>
+        <value>Approval requested for Equipment Integrity Team</value>
+    </labels>
+    <labels>
+        <fullName>ER_Approval_Msg_For_NAM_Trade</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ER Approval Msg For NAM Trade</shortDescription>
+        <value>Approval requested for NAM and Finance Trade Team</value>
+    </labels>
+    <labels>
+        <fullName>ER_Approval_Msg_For_Trade</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ER Approval Msg For Trade</shortDescription>
+        <value>Approval requested for Finance Trade Team</value>
+    </labels>
+    <labels>
+        <fullName>Error_Msg_EI_User_Update_ForgeId</fullName>
+        <categories>Equipment request</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Msg EI User Update ForgeId</shortDescription>
+        <value>User do not have permission to update Operator Trade ID.Please contact to your System Administrator for more details.</value>
+    </labels>
+    <labels>
+        <fullName>FILE_MISSING</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Please provide a comma separated file.</shortDescription>
+        <value>Please provide a comma separated file.</value>
+    </labels>
+    <labels>
+        <fullName>INVALID_FILE_ROW_SIZE_DOESNT_MATCH</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>The number of field values does not match the number of header fields on line</shortDescription>
+        <value>The number of field values does not match the number of header fields on line</value>
+    </labels>
+    <labels>
+        <fullName>JME_Execution_Failure_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Execution Failure Message</shortDescription>
+        <value>Record are failed to update.Please try again or contact to your System Admin</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Account_Information</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>JMS Account Information</shortDescription>
+        <value>Account Information</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Account_Query</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account Query</shortDescription>
+        <value>Select Id ,BillingPostalCode ,Name from Account where BillingPostalCode != &apos;&apos;</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Additional_Information</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>JMS Additional Information</shortDescription>
+        <value>Additional Information</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Address_Information</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>JMS Address Information</shortDescription>
+        <value>Address Information</value>
+    </labels>
+    <labels>
+        <fullName>JMS_AssignObjectTerrAssoBatchSize</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AssignObjectTerrAssoBatchSize</shortDescription>
+        <value>100</value>
+    </labels>
+    <labels>
+        <fullName>JMS_BrokerCallFileSize</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BrokerCallFileSize</shortDescription>
+        <value>1800</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Broker_Call_Email_Address</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Broker Call Email Address</shortDescription>
+        <value>josh.morehart@jmsmucker.com</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Broker_Call_Error_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Broker Call Error Message</shortDescription>
+        <value>Unable to create New Broker Call Record.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Broker_Call_Id_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Broker Call Id Error Msg</shortDescription>
+        <value>Broker Call Id is blank.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Broker_Call_Object_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Broker Call Object Label</shortDescription>
+        <value>Broker Call</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Broker_Name_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Broker Name Error Msg</shortDescription>
+        <value>Invalid Broker Name.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Broker_Name_Invalid</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Broker Name Invalid</shortDescription>
+        <value>Invalid Broker Name.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Broker_Name_Missing_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Broker Name Missing Error Msg</shortDescription>
+        <value>Broker Name is Missing.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Broker_call_Comment_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Broker call Comment Error Msg</shortDescription>
+        <value>Comment Blank</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Broker_call_Report_Email_Template</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Broker call Report Email Template</shortDescription>
+        <value>JMS_Broker_Call_CSV_Reports</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Btn_Execute</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Btn_Execute</shortDescription>
+        <value>Execute</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Call_Date_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Call Date Error Msg</shortDescription>
+        <value>Call Date should not be blank or not be future date.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Call_Status_Complete_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Call Status Complete Error Msg</shortDescription>
+        <value>Call Status must be Complete</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Call_made_By_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Call made By Error Msg</shortDescription>
+        <value>Call Made By should be JMS or Broker.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_CampTarg_Campaign_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CampTarg Campaign Error Msg</shortDescription>
+        <value>Salesforce is unable to find the Campaign in system.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_CampTarg_Contact_Email_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CampTarg Contact Email Error Msg</shortDescription>
+        <value>Contact Email is missing.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_CampTarg_Contact_First_Name_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CampTarg Contact First Name Error Msg</shortDescription>
+        <value>Contact First Name is missing</value>
+    </labels>
+    <labels>
+        <fullName>JMS_CampTarg_Contact_Last_Name_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CampTarg Contact Last Name Error Msg</shortDescription>
+        <value>Contact last Name is missing.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_CampTarg_Contact_Phone_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CampTarg Contact Phone Error Msg</shortDescription>
+        <value>Contact Phone Name is missing.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_CampTarg_Operator_Name_Error_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CampTarg Operator Name Error Message</shortDescription>
+        <value>Operator Name is missing.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_CampTarg_Product_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CampTarg Product Error Msg</shortDescription>
+        <value>Salesforce is unable to find the Product in system or  Price Book Entries are not associated with Product</value>
+    </labels>
+    <labels>
+        <fullName>JMS_CampTarger_Broker_Call_Execution</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Campaign Target &amp; Broker Call Execution</shortDescription>
+        <value>Campaign Target &amp; Broker Call Execution</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Camp_Target_Annual_Volume_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Camp Target Annual Volume Error</shortDescription>
+        <value>Annual Volume is missing.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_CampaignTargetProcess</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>JMS_CampaignTargetProcess</shortDescription>
+        <value>CampaignTargetProcess</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Campaign_Target</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Execute Campaign Target</shortDescription>
+        <value>Execute Campaign Target</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Campaign_Target_Email_Address</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Campaign Target Email Address</shortDescription>
+        <value>josh.morehart@jmsmucker.com</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Campaign_Target_Landing_Query</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Campaign Target Landing Query</shortDescription>
+        <value>SELECT Id,Name, JMS_Campaign_Name__c, JMS_Company_Reference_Number__c, JMS_Company_Country__c, JMS_Operator_Name__c, JMS_Operator_Address__c, JMS_Operator_City__c, JMS_Operators_State__c, JMS_Operator_Zip__c, JMS_Company_Type__c, JMS_Operator_Contact_First_Name__c, JMS_Operator_Contact_Last_Name__c, JMS_Operator_Contact_Email_Address__c, JMS_Operator_Contact_Phone_Number__c, JMS_Smucker_SKU__c, JMS_Product_Description__c, JMS_Annual_Volume__c, JMS_Sales_Person_Email__c, JMS_FireFlyId__c, JMS_Operator_Phone__c, JMS_Operator_Contact_Full_Name__c, JMS_Operator_Contact_Title__c, JMS_Operator_Contact_Mobile_Phone_Number__c, JMS_Operator_Contact_Phone_Number_Ext__c, JMS_WRAP_Target__c, JMS_Competitor_Name__c, JMS_UniqueKey__c, JMS_PCampaign_ID__c, JMS_Campaign_Target_ID__c, JMS_Intended_For__c, JMS_Unique_Key__c FROM JMS_Campaign_Target_Landing__c</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Campaign_Target_Report_Email_Template</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Campaign Target Report Email Template</shortDescription>
+        <value>JMS_Campaign_Targets_CSV_Report</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Campaign_Target_Staging_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Campaign Target Staging Error Msg</shortDescription>
+        <value>Record are failed to update.Please try again or contact to your System Admin</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Campaign_Target_Staging_Error_Mssg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Campaign Target Staging Error Mssg</shortDescription>
+        <value>Record are failed to update.Please try again or contact to your System Admin</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Campaign_Target_Staging_Success_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Campaign Target Staging Success Msg</shortDescription>
+        <value>Successfully Executed</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Campaign_Target_Staging_Success_Mssg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Campaign_Target Staging Success Mssg</shortDescription>
+        <value>Successfully Executed</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Cancel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>JMS Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Case_Volume_Blank_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case Volume Blank Error Msg</shortDescription>
+        <value>Case Volume is Blank.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Close</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>JMS Close</shortDescription>
+        <value>Close</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Company_Address_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Company Address Error Msg</shortDescription>
+        <value>Company Address is missing.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Company_City_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Company City Error Msg</shortDescription>
+        <value>Company City is missing.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Company_Country_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Company Country Error Msg</shortDescription>
+        <value>Company Country is missing.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Company_Name_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Company Name Error Msg</shortDescription>
+        <value>Company Name is missing.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Company_Operator_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Operator Country Error Msg</shortDescription>
+        <value>Operator Country is missing.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Company_State_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Company State Error Msg</shortDescription>
+        <value>Company State is missing.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Company_ZipCode_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Company ZipCode Error Msg</shortDescription>
+        <value>Company ZipCode is missing.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Contact_Email_Address_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact Email Address Error Msg</shortDescription>
+        <value>Incorrect Email Address format.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Contact_Email_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact Email Error Msg</shortDescription>
+        <value>Contact Email is Blank.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Contact_First_Name_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact First Name Error Msg</shortDescription>
+        <value>Contact First Name is Blank.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Contact_Last_Name_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact Last Name Error Msg</shortDescription>
+        <value>Contact Last Name is Blank.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Contact_Phone_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact Phone Error Msg</shortDescription>
+        <value>Contact Phone is Blank.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Country_Short_Form_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Country Short Form Error Msg</shortDescription>
+        <value>Invalid Country Name. It should be either United States or Canada.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Custom_Notification_Approval_Request_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom Notification  Approval Request Title</shortDescription>
+        <value>OWNERNAMEVAL is requesting approval for equipment request.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Custom_Notification_Approved_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom Notification Approved Title</shortDescription>
+        <value>Approval request for the equipment request is approved</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Custom_Notification_Body</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom Notification Body</shortDescription>
+        <value>JMS Equipment Request Name: ERNameVal • Owner: OwnerNameVal • Created By: CreatedByNameVal • Account: AccountNameVal</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Custom_Notification_Name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom Notification Name</shortDescription>
+        <value>JMS_ERF_Process_Notification</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Custom_Notification_Rejected_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom Notification Rejected Title</shortDescription>
+        <value>Approval request for the equipment request is rejected</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Default_User_Email_Address</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Default User Email Address</shortDescription>
+        <value>josh.morehart@jmsmucker.com</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Delegated_User_Profile</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>JMS Delegated User Profile</shortDescription>
+        <value>System Administrator;Sales Users</value>
+    </labels>
+    <labels>
+        <fullName>JMS_DeleteObjectTerrAssoBatchSize</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DeleteObjectTerrAssoBatchSize</shortDescription>
+        <value>100</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Distributor_Code_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Distributor Code Error Msg</shortDescription>
+        <value>Invalid Distributor Code</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Distributor_Name_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Distributor Name Error Msg</shortDescription>
+        <value>Invalid Distributor Name</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Email_Subject</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>JMS_Email_Subject</shortDescription>
+        <value>Matching Accounts with Same FireFly Id -</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Equipment_Request_Approval_template</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Equipment Request Approval template</shortDescription>
+        <value>JMS_Equipment_Request_Approval_Emails</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error</shortDescription>
+        <value>Error</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Estimated_Order_Date_Validation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>JMS Estimated Order Date Validation</shortDescription>
+        <value>Estimated Order Date cannot be blank if Product Status is Sale.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Execute_Broker_Call</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Execute Broker Call</shortDescription>
+        <value>Execute Broker Call</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Execution_Success_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Execution Success Message</shortDescription>
+        <value>Successfully Executed</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Incorrect_Email_Address_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Incorrect Email Address Error Msg</shortDescription>
+        <value>Incorrect Email Address</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Initiative_Name_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Initiative Name Error Msg</shortDescription>
+        <value>Invalid Initiative Name.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Item_Number_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Item Number Error Msg</shortDescription>
+        <value>Invalid Item Number.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Item_Status_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Item Status Error Msg</shortDescription>
+        <value>Invalid Item Status.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_MatchingAccountEmailTemplate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>JMS_MatchingAccountEmailTemplate</shortDescription>
+        <value>Send_Notification_for_Duplicate_Accounts</value>
+    </labels>
+    <labels>
+        <fullName>JMS_New_Account</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>JMS New Account</shortDescription>
+        <value>New Account :</value>
+    </labels>
+    <labels>
+        <fullName>JMS_New_Broker_Call_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New Broker Call Error Msg</shortDescription>
+        <value>Unable to create Broker Call record.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_New_Operator_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New Operator Error Msg</shortDescription>
+        <value>Unable to create New Operator(Account) Record</value>
+    </labels>
+    <labels>
+        <fullName>JMS_New_Opportunity_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New Opportunity Error Msg</shortDescription>
+        <value>Unable to create New Opportunity Record</value>
+    </labels>
+    <labels>
+        <fullName>JMS_No_Primary_Contact_Exist</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>JMS No Primary Contact Exist</shortDescription>
+        <value>Please create a Primary Contact for this Account.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_No_Sale_Reason_Detail_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No-Sale Reason Detail Error Msg</shortDescription>
+        <value>Invalid No-Sale Reason Detail</value>
+    </labels>
+    <labels>
+        <fullName>JMS_No_Sale_Reason_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No-Sale Reason Error Msg</shortDescription>
+        <value>Invalid No-Sale Reason</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Object_Territory_Association_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Object Territory Association Error Msg</shortDescription>
+        <value>Record are failed to update.Please try again or contact to your System Admin</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Object_Territory_Association_Query</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Object Territory Association Query</shortDescription>
+        <value>SELECT Id,JMS_Account_ID__c,JMS_TerritoryID__c FROM JMS_Territory_Assignment__c</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Object_Territory_Association_Success_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Object Territory Association Success Msg</shortDescription>
+        <value>Successfully Executed</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Operator_Address_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Operator Address Error Msg</shortDescription>
+        <value>Operator Address is missing.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Operator_City_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Operator City Error Msg</shortDescription>
+        <value>Operator City is missing.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Operator_Contact_Error_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Operator Contact Error Message</shortDescription>
+        <value>Unable to create New Contact Record</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Operator_Country_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Operator Country Error Msg</shortDescription>
+        <value>Operator Country is missing.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Operator_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Operator Error Msg</shortDescription>
+        <value>Unable to create New Operator(Account) Record</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Operator_State_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Operator State Error Msg</shortDescription>
+        <value>Operator State is missing.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Operator_ZipCode_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Operator ZipCode Error Msg</shortDescription>
+        <value>Company ZipCode is missing.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Opportunity_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Opportunity Error Msg</shortDescription>
+        <value>Unable to create New Opportunity Record</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Opportunity_Product_Error_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Opportunity Product Error Message</shortDescription>
+        <value>Unable to create Opportunity Product Record</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Opportunity_Product_Object_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Opportunity Product Object Label</shortDescription>
+        <value>Opportunity Product</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Opportunity_Sale_Validation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>JMS Opportunity Sales Validation</shortDescription>
+        <value>In order to select a Stage value of &quot;Closed Won&quot;, the Opportunity must have a Product with a Status value of &quot;Sale&quot;.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Opportunity_Validation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>JMS Opportunity Validation</shortDescription>
+        <value>User should be able to select &quot;Closed won&quot; Value only if Product Status is &quot;Sale&quot;.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Pardot_User_Profile_Name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Pardot User Profile Name</shortDescription>
+        <value>B2BMA Integration User</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Primary_Contact_Error_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>JMS_Primary_Contact_Error_Message</shortDescription>
+        <value>This Account already has a Primary Contact. To assign a new Primary Contact, please uncheck the Primary Contact checkbox on the existing Primary Contact record before assigning a different Contact as the Primary.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Primary_Contact_Exist</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>JMS Primary Contact Exist</shortDescription>
+        <value>A Primary Contact is associated with this Account.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Read_Only_Fields_Validation_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>JMS Read Only Fields Validation Msg</shortDescription>
+        <value>Accounts from Firefly cannot be edited, except for the Expected GPO, Expected Distributor, Food Management Company, Vendor Management Company, Comments and Broker Territory fields.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Restrict_To_Change_File_Name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Restrict To Change File Name</shortDescription>
+        <value>User don&apos;t have permission to change the file name.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Salesperson_First_Name_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Salesperson First Name Error Msg</shortDescription>
+        <value>Salesperson First Name is Blank</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Salesperson_Last_Name_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Salesperson Last Name Error Msg</shortDescription>
+        <value>Salesperson Last Name is Blank</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Save</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>JMS Save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>JMS_SpotFire_URL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SpotFire URL</shortDescription>
+        <value>http://spfporrwwwa.na.jmsmucker.com:8080/spotfire/wp/analysis?file=/Away%20From%20Home/Analytics%20Testing/Beta%20Testing/AFH%20Operator%20Insights%20Demo&amp;waid=CgJTUvueuU-OM5gssT2Mj-19085861a6eMZu&amp;wavid=0</value>
+    </labels>
+    <labels>
+        <fullName>JMS_State_Code_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>State Code Error Msg</shortDescription>
+        <value>State should be in complete name format.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Success</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Success</shortDescription>
+        <value>Success</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Territory_ID_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Territory ID Error Msg</shortDescription>
+        <value>Invalid Territory ID</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Territory_Modal_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Territory Modal Message</shortDescription>
+        <value>Please click Proceed button to update new Territory Association on Account records.</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Territory_Modal_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Territory Modal Title</shortDescription>
+        <value>Do you want to proceed?</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Territory_Name_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Territory Name Error Msg</shortDescription>
+        <value>Invalid Territory Name</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Territory_Proceed_Btn</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Territory Proceed Btn</shortDescription>
+        <value>Proceed</value>
+    </labels>
+    <labels>
+        <fullName>JMS_Update_New_Territory_Association</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Update New Territory Association</shortDescription>
+        <value>Update New Territory Association</value>
+    </labels>
+    <labels>
+        <fullName>MSG_CHECK_API_NAMES</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Please check the Api names!</shortDescription>
+        <value>Please check the Api names!</value>
+    </labels>
+    <labels>
+        <fullName>MSG_CS_MDT_EXISTS</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Make sure Custom Setting and Custom Metadata Types exists in the org!</shortDescription>
+        <value>Make sure Custom Setting and Custom Metadata Types exists in the org!</value>
+    </labels>
+    <labels>
+        <fullName>MSG_CS_MDT_FIELD_NAME_FORMAT</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Please check the format, Custom Setting.field and Custom Metadata Types.field</shortDescription>
+        <value>Please check the format, Custom Setting.field and Custom Metadata Types.field</value>
+    </labels>
+    <labels>
+        <fullName>MSG_CS_MDT_FIELD_NAME_REQ</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom Setting Name/Field Name and CMT/Field Name names are required!</shortDescription>
+        <value>Custom Setting Name/Field Name and CMT/Field Name names are required!</value>
+    </labels>
+    <labels>
+        <fullName>MSG_CS_MDT_MAPPING_REQ</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom Setting Name, Custom Metadata Types and Json Mapping names are required!</shortDescription>
+        <value>Custom Setting Name, Custom Metadata Types and Json Mapping names are required!</value>
+    </labels>
+    <labels>
+        <fullName>MSG_CS_MDT_REQ</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom Setting Api Name and Custom Metadata Types Api names are required!</shortDescription>
+        <value>Custom Setting Api Name and Custom Metadata Types Api names are required!</value>
+    </labels>
+    <labels>
+        <fullName>MSG_CUSTOM_SETTINGS_EXISTS</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Make sure Custom Setting exists in the org!</shortDescription>
+        <value>Make sure Custom Setting exists in the org!</value>
+    </labels>
+    <labels>
+        <fullName>MSG_JSON_API_NAMES</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Please check the Api names in Json!</shortDescription>
+        <value>Please check the Api names in Json!</value>
+    </labels>
+    <labels>
+        <fullName>MSG_JSON_FORMAT</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Please check the Json format!</shortDescription>
+        <value>Please check the Json format!</value>
+    </labels>
+    <labels>
+        <fullName>MSG_MDT_END</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom Metadata Types name should end with</shortDescription>
+        <value>Custom Metadata Types name should end with</value>
+    </labels>
+    <labels>
+        <fullName>MSG_MIGRATION_COMPLETED</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Migration Completed!</shortDescription>
+        <value>Migration Completed!</value>
+    </labels>
+    <labels>
+        <fullName>MSG_MIGRATION_IN_PROGRESS</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Migration In Progress, check status under Deploy -&gt; Deployment Status, Job Id:</shortDescription>
+        <value>Migration In Progress, check status under Deploy -&gt; Deployment Status, Job Id:</value>
+    </labels>
+    <labels>
+        <fullName>MSG_NOT_SUPPORTED</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Not Supported!!!</shortDescription>
+        <value>Not Supported!!!</value>
+    </labels>
+    <labels>
+        <fullName>Namespace</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Namespace</shortDescription>
+        <value>c</value>
+    </labels>
+    <labels>
+        <fullName>Next</fullName>
+        <categories>Pagination</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Next</shortDescription>
+        <value>Next &gt;&gt;</value>
+    </labels>
+    <labels>
+        <fullName>POAddtoCart</fullName>
+        <categories>PurchaseOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POAddtoCart</shortDescription>
+        <value>Add to Cart</value>
+    </labels>
+    <labels>
+        <fullName>POAdvanceSearch</fullName>
+        <categories>PurchaseOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POAdvanceSearch</shortDescription>
+        <value>Advance Search</value>
+    </labels>
+    <labels>
+        <fullName>POApplyFilter</fullName>
+        <categories>PurchaseOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POApplyFilter</shortDescription>
+        <value>Apply Filter</value>
+    </labels>
+    <labels>
+        <fullName>POBack</fullName>
+        <categories>PurchaseOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POBack</shortDescription>
+        <value>Back</value>
+    </labels>
+    <labels>
+        <fullName>POCancelbtn</fullName>
+        <categories>PurchaseOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POCancelbtn</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>POClearFilter</fullName>
+        <categories>PurchaseOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POClearFilter</shortDescription>
+        <value>Clear Filter</value>
+    </labels>
+    <labels>
+        <fullName>POClose</fullName>
+        <categories>PurchaseOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POClose</shortDescription>
+        <value>Close</value>
+    </labels>
+    <labels>
+        <fullName>POContinue</fullName>
+        <categories>PurchaseOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POContinue</shortDescription>
+        <value>Continue:</value>
+    </labels>
+    <labels>
+        <fullName>PODiscount</fullName>
+        <categories>PurchaseOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PODiscount</shortDescription>
+        <value>Discount(%)</value>
+    </labels>
+    <labels>
+        <fullName>POInformation</fullName>
+        <categories>PurchaseOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POInformation</shortDescription>
+        <value>Purchase Order Information</value>
+    </labels>
+    <labels>
+        <fullName>POItems_In_Your_Cart</fullName>
+        <categories>PurchaseOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POItems_In_Your_Cart</shortDescription>
+        <value>items in your Cart</value>
+    </labels>
+    <labels>
+        <fullName>POPayment</fullName>
+        <categories>PurchaseOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POPayment</shortDescription>
+        <value>Payment Details</value>
+    </labels>
+    <labels>
+        <fullName>POPhone</fullName>
+        <categories>PurchaseOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POPhone</shortDescription>
+        <value>Phone:</value>
+    </labels>
+    <labels>
+        <fullName>POPlaceOrder</fullName>
+        <categories>PurchaseOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POPlaceOrder</shortDescription>
+        <value>Place Purchase Order</value>
+    </labels>
+    <labels>
+        <fullName>POProductCode</fullName>
+        <categories>PurchaseOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POProductCode</shortDescription>
+        <value>Product Code</value>
+    </labels>
+    <labels>
+        <fullName>POProductErrorMsg</fullName>
+        <categories>PurchaseOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POProductErrorMsg</shortDescription>
+        <value>Sorry for Interrupt</value>
+    </labels>
+    <labels>
+        <fullName>POProductFamily</fullName>
+        <categories>PurchaseOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POProductFamily</shortDescription>
+        <value>Product Family</value>
+    </labels>
+    <labels>
+        <fullName>POProductName</fullName>
+        <categories>PurchaseOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POProductName</shortDescription>
+        <value>Product Name</value>
+    </labels>
+    <labels>
+        <fullName>POProductRange</fullName>
+        <categories>PurchaseOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POProductRange</shortDescription>
+        <value>0 - 1000</value>
+    </labels>
+    <labels>
+        <fullName>POQuantity</fullName>
+        <categories>PurchaseOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POQuantity</shortDescription>
+        <value>Quantity</value>
+    </labels>
+    <labels>
+        <fullName>PORelevantResult</fullName>
+        <categories>PurchaseOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PORelevantResult</shortDescription>
+        <value>Showing most relevant results</value>
+    </labels>
+    <labels>
+        <fullName>POSearch</fullName>
+        <categories>PurchaseOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POSearch</shortDescription>
+        <value>Search</value>
+    </labels>
+    <labels>
+        <fullName>POSearchSalesforce</fullName>
+        <categories>PurchaseOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POSearchSalesforce</shortDescription>
+        <value>Search Salesforce</value>
+    </labels>
+    <labels>
+        <fullName>POShipto</fullName>
+        <categories>PurchaseOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POShipto</shortDescription>
+        <value>Ship To</value>
+    </labels>
+    <labels>
+        <fullName>POShoppingCart</fullName>
+        <categories>PurchaseOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POShoppingCart</shortDescription>
+        <value>Your Shopping Cart</value>
+    </labels>
+    <labels>
+        <fullName>POTop_Products</fullName>
+        <categories>PurchaseOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POTop_Products</shortDescription>
+        <value>Top Products</value>
+    </labels>
+    <labels>
+        <fullName>POTotalPrice</fullName>
+        <categories>PurchaseOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POTotalPrice</shortDescription>
+        <value>Total Price</value>
+    </labels>
+    <labels>
+        <fullName>POUNITPRICE</fullName>
+        <categories>PurchaseOrder</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>POUNITPRICE</shortDescription>
+        <value>Unit Price</value>
+    </labels>
+    <labels>
+        <fullName>POtotalAmt</fullName>
+        <categories>PurchaseOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POtotalAmt</shortDescription>
+        <value>Total Amount</value>
+    </labels>
+    <labels>
+        <fullName>PaginationPageSize</fullName>
+        <categories>Pagination</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PaginationPageSize</shortDescription>
+        <value>6</value>
+    </labels>
+    <labels>
+        <fullName>PoBillingAddress</fullName>
+        <categories>PurchaseOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POBillingAddress</shortDescription>
+        <value>Billing Address</value>
+    </labels>
+    <labels>
+        <fullName>PoNetPay</fullName>
+        <categories>PurchaseOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PoNetPay</shortDescription>
+        <value>Net Pay Ammount</value>
+    </labels>
+    <labels>
+        <fullName>PoShippingAddress</fullName>
+        <categories>PurchaseOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PoShippingAddress</shortDescription>
+        <value>Shipping Address</value>
+    </labels>
+    <labels>
+        <fullName>Prev</fullName>
+        <categories>Pagination</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Prev</shortDescription>
+        <value>&lt;&lt; Prev</value>
+    </labels>
+    <labels>
+        <fullName>RecentlyViewed</fullName>
+        <categories>Home</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RecentlyViewed</shortDescription>
+        <value>Recently Viewed</value>
+    </labels>
+    <labels>
+        <fullName>SOAddNewCustomer</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOAddNewCustomer</shortDescription>
+        <value>Add New Customer</value>
+    </labels>
+    <labels>
+        <fullName>SOAddress</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SOAddress</shortDescription>
+        <value>Address</value>
+    </labels>
+    <labels>
+        <fullName>SOAddtoCart</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOAddtoCart</shortDescription>
+        <value>Add to Cart</value>
+    </labels>
+    <labels>
+        <fullName>SOAdvanceSearch</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOAdvanceSearch</shortDescription>
+        <value>Advance Search</value>
+    </labels>
+    <labels>
+        <fullName>SOApplyFilter</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOApplyFilter</shortDescription>
+        <value>Apply Filter</value>
+    </labels>
+    <labels>
+        <fullName>SOBack</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOBack</shortDescription>
+        <value>Back</value>
+    </labels>
+    <labels>
+        <fullName>SOCancel</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOCancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>SOCardNumber</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOCardNumber</shortDescription>
+        <value>Card Number</value>
+    </labels>
+    <labels>
+        <fullName>SOCardType</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOCardType</shortDescription>
+        <value>Card Type</value>
+    </labels>
+    <labels>
+        <fullName>SOCardTypes</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOCardTypes</shortDescription>
+        <value>Select card Type,Visa, Master Card, Maestro Card, American Express, Discover, Other</value>
+    </labels>
+    <labels>
+        <fullName>SOCash</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOCash</shortDescription>
+        <value>Cash</value>
+    </labels>
+    <labels>
+        <fullName>SOCity</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOCity</shortDescription>
+        <value>City</value>
+    </labels>
+    <labels>
+        <fullName>SOClearFilter</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOClearFilter</shortDescription>
+        <value>Clear Filter</value>
+    </labels>
+    <labels>
+        <fullName>SOClose</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOClose</shortDescription>
+        <value>Close</value>
+    </labels>
+    <labels>
+        <fullName>SOColor</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOColor</shortDescription>
+        <value>Color:</value>
+    </labels>
+    <labels>
+        <fullName>SOContinue</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOContinue</shortDescription>
+        <value>Continue:</value>
+    </labels>
+    <labels>
+        <fullName>SOCountry</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOCountry</shortDescription>
+        <value>Country</value>
+    </labels>
+    <labels>
+        <fullName>SOCreditCard</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOCreditCard</shortDescription>
+        <value>Credit Card</value>
+    </labels>
+    <labels>
+        <fullName>SOCustomerName</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOCustomerName</shortDescription>
+        <value>Customer Name</value>
+    </labels>
+    <labels>
+        <fullName>SOCustomers</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOCustomers</shortDescription>
+        <value>Customers</value>
+    </labels>
+    <labels>
+        <fullName>SOEdit</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOEdit</shortDescription>
+        <value>Edit</value>
+    </labels>
+    <labels>
+        <fullName>SOEnterNewAddressDetails</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOEnterNewAddressDetails</shortDescription>
+        <value>Enter New Address Details</value>
+    </labels>
+    <labels>
+        <fullName>SOExpiryMonth</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOExpiryMonth</shortDescription>
+        <value>Expiration Month</value>
+    </labels>
+    <labels>
+        <fullName>SOExpiryYear</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOExpiryYear</shortDescription>
+        <value>Expiration Year</value>
+    </labels>
+    <labels>
+        <fullName>SOFullPayment</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOFullPayment</shortDescription>
+        <value>Full Payment</value>
+    </labels>
+    <labels>
+        <fullName>SOInvoice</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOInvoice</shortDescription>
+        <value>Invoice</value>
+    </labels>
+    <labels>
+        <fullName>SOMerchandiseType</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOMerchandiseType</shortDescription>
+        <value>Merchandise Type:</value>
+    </labels>
+    <labels>
+        <fullName>SOMonths</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOMonths</shortDescription>
+        <value>Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec</value>
+    </labels>
+    <labels>
+        <fullName>SOName</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOName</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>SONameOnCard</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SONameOnCard</shortDescription>
+        <value>Name On Card</value>
+    </labels>
+    <labels>
+        <fullName>SOPartialPayment</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOPartialPayment</shortDescription>
+        <value>Partial Payment</value>
+    </labels>
+    <labels>
+        <fullName>SOPayAmount</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOPayAmount</shortDescription>
+        <value>Pay Amount</value>
+    </labels>
+    <labels>
+        <fullName>SOPayBy</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOPayBy</shortDescription>
+        <value>Pay By</value>
+    </labels>
+    <labels>
+        <fullName>SOPayPercent</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOPayPercent</shortDescription>
+        <value>Pay(%)</value>
+    </labels>
+    <labels>
+        <fullName>SOPaymentDetails</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOPaymentDetails</shortDescription>
+        <value>Payment Details</value>
+    </labels>
+    <labels>
+        <fullName>SOPhone</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOPhone</shortDescription>
+        <value>Phone</value>
+    </labels>
+    <labels>
+        <fullName>SOPlaceSalesOrder</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOPlaceSalesOrder</shortDescription>
+        <value>Place Sales Order</value>
+    </labels>
+    <labels>
+        <fullName>SOPleaseEnter</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOPleaseEnter</shortDescription>
+        <value>Please Enter</value>
+    </labels>
+    <labels>
+        <fullName>SOPleaseSelect</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOPleaseSelect</shortDescription>
+        <value>Please Select</value>
+    </labels>
+    <labels>
+        <fullName>SOPostalCode</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOPostalCode</shortDescription>
+        <value>Postal Code</value>
+    </labels>
+    <labels>
+        <fullName>SOProductCode</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOProductCode</shortDescription>
+        <value>Product Code</value>
+    </labels>
+    <labels>
+        <fullName>SOProductFamily</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOProductFamily</shortDescription>
+        <value>Product Family</value>
+    </labels>
+    <labels>
+        <fullName>SOProducts</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOProducts</shortDescription>
+        <value>Products</value>
+    </labels>
+    <labels>
+        <fullName>SOSave</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOSave</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>SOSearch</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOSearch</shortDescription>
+        <value>Search</value>
+    </labels>
+    <labels>
+        <fullName>SOSearchCustomer</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOSearchCustomer</shortDescription>
+        <value>Search Customer</value>
+    </labels>
+    <labels>
+        <fullName>SOSearchProducts</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOSearchProducts</shortDescription>
+        <value>Search Products</value>
+    </labels>
+    <labels>
+        <fullName>SOShowingmostrelevantresults</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOShowingmostrelevantresults</shortDescription>
+        <value>Showing most relevant results</value>
+    </labels>
+    <labels>
+        <fullName>SOSize</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOSize</shortDescription>
+        <value>Size:</value>
+    </labels>
+    <labels>
+        <fullName>SOSorryforIntrupt</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOSorryforIntrupt</shortDescription>
+        <value>Sorry for Intrupt</value>
+    </labels>
+    <labels>
+        <fullName>SOState</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOState</shortDescription>
+        <value>State</value>
+    </labels>
+    <labels>
+        <fullName>SOStreet</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOStreet</shortDescription>
+        <value>Street</value>
+    </labels>
+    <labels>
+        <fullName>SOTop</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOTop</shortDescription>
+        <value>Top</value>
+    </labels>
+    <labels>
+        <fullName>SOYourShoppingCart</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOYourShoppingCart</shortDescription>
+        <value>Your Shopping Cart</value>
+    </labels>
+    <labels>
+        <fullName>SOcvv</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOcvv</shortDescription>
+        <value>CVV</value>
+    </labels>
+    <labels>
+        <fullName>SOitemsinyourCart</fullName>
+        <categories>SalesOrder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOitemsinyourCart</shortDescription>
+        <value>items in your Cart</value>
+    </labels>
+    <labels>
+        <fullName>Salesforce_URL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Salesforce URL</shortDescription>
+        <value>https://df4000002drcjeae--dev.sandbox.lightning.force.com</value>
+    </labels>
+    <labels>
+        <fullName>TYPE_OPTION_NOT_SELECTED</fullName>
+        <categories>CMT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Please choose a valid custom metadata type.</shortDescription>
+        <value>Please choose a valid custom metadata type.</value>
+    </labels>
+    <labels>
+        <fullName>addedToCartMessageTime</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Item Added To Cart Message Fade Out Time Seconds</shortDescription>
+        <value>3</value>
+    </labels>
+    <labels>
+        <fullName>giic_AP_Invoice_Tolerance</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AP Invoice Voucher DistributionTolerance/in percentage</shortDescription>
+        <value>5</value>
+    </labels>
+    <labels>
+        <fullName>giic_CancelLines</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>giic_CancelLines</shortDescription>
+        <value>You cannot Cancel all lines of the sales order from here</value>
+    </labels>
+    <labels>
+        <fullName>giic_CannotAssignFSEWithoutNewCert</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>To prevent assigning FSE without the required certificatio</shortDescription>
+        <value>The assigned technician does not have the certification required to service the associated product. Please re-assign the Service Ticket Line to a qualified technician</value>
+    </labels>
+    <labels>
+        <fullName>giic_DCWarehouse</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DCWarehouse</shortDescription>
+        <value>E &amp; S - Washington - Wylie</value>
+    </labels>
+    <labels>
+        <fullName>giic_DcWarehouses</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DcWarehouses</shortDescription>
+        <value>E &amp; S - Washington - Wylie</value>
+    </labels>
+    <labels>
+        <fullName>giic_DeleteLines</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>giic_DeleteLines</shortDescription>
+        <value>You cannot delete all the lines of the sales order.</value>
+    </labels>
+    <labels>
+        <fullName>giic_DemandOrderURL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>giic_DemandOrderURL</shortDescription>
+        <value>https://df4000002drcjeae--dev.sandbox.lightning.force.com/lightning/o/gii__DemandOrder__c/list?filterName=00B3C000002lw97UAA</value>
+    </labels>
+    <labels>
+        <fullName>giic_FEDEX_Library</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FEDEX Library</shortDescription>
+        <value>FEDEX Library</value>
+    </labels>
+    <labels>
+        <fullName>giic_Hazmat_Class</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>giic_Hazmat_Class</shortDescription>
+        <value>2.1</value>
+    </labels>
+    <labels>
+        <fullName>giic_Hazmat_EmergencyPhone</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>giic_Hazmat_EmergencyPhone</shortDescription>
+        <value>7242286633</value>
+    </labels>
+    <labels>
+        <fullName>giic_Hazmat_Emergency_Company</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>giic_Hazmat_Emergency_Company</shortDescription>
+        <value>The J.M. Smucker Company</value>
+    </labels>
+    <labels>
+        <fullName>giic_Hazmat_Emergency_ContractNumber</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>giic_Hazmat_Emergency_ContractNumber</shortDescription>
+        <value>abc123</value>
+    </labels>
+    <labels>
+        <fullName>giic_Hazmat_UN_Number</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>giic_Hazmat_UN_Number</shortDescription>
+        <value>UN 1969</value>
+    </labels>
+    <labels>
+        <fullName>giic_InPurchaseRequistionBuyerID</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>when PR cretaed then Buyer should be deafult</shortDescription>
+        <value>Chantel Schleappi</value>
+    </labels>
+    <labels>
+        <fullName>giic_ItemAlreadyExistedOnTheOrder</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>giic_ItemAlreadyExistedOnTheOrder</shortDescription>
+        <value>Item already existed on the order.</value>
+    </labels>
+    <labels>
+        <fullName>giic_JMS_E_S_US_Account</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>JMS - E &amp; S - US Account</shortDescription>
+        <value>JMS ES Account</value>
+    </labels>
+    <labels>
+        <fullName>giic_Picklist_Barcode_Library</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label Printing Library</shortDescription>
+        <value>Label Printing Library</value>
+    </labels>
+    <labels>
+        <fullName>giic_ProductSparePart</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product Spare Part</shortDescription>
+        <value>Enel Spare Part</value>
+    </labels>
+    <labels>
+        <fullName>giic_Product_Invetory</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product Invetory</shortDescription>
+        <value>https://df4000002drcjeae--dev.sandbox.lightning.force.com/lightning/o/gii__ProductInventory__c/list?filterName=00B3C000002wbzjUAA</value>
+    </labels>
+    <labels>
+        <fullName>giic_Receive_and_Putaway_Screen_header_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>giic_Receive_and_Putaway_Screen_header_Message</shortDescription>
+        <value>Please select the warehouse (optional) and either Purchase Order OR Transfer Order and click on Search button in order to view the lines that are yet to be received. For Serial Controlled: Please click on Serial Receive link, enter the Location and Location Bin if they are not pre-populated. You can provide the product serial numbers manually by typing it in the input textbox OR using a barcode scanner and using click on Receive and Put-away button. Based on the number of product serials that you enter, the open quantity will be updated accordingly. For Non-Serial Controlled: Please select one or more lines, enter the receipt quantity, provide the Location and Location Bin if they are not pre-populated and click on Receive and Put-away button. Based on the receipt quantity that you enter, the open quantity will be updated accordingly.</value>
+    </labels>
+    <labels>
+        <fullName>giic_SKUReportId</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>giic_SKUReportId</shortDescription>
+        <value>00O0D000000VppuUAC</value>
+    </labels>
+    <labels>
+        <fullName>giic_SLA_Breach_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SLA Breach Message</shortDescription>
+        <value>The SLA has been breached for the Service Ticket Line -</value>
+    </labels>
+    <labels>
+        <fullName>giic_Service_Partner_RecordType_Inaccount</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>giic_Service_Partner_RecordType_Inaccount</shortDescription>
+        <value>AFH 3rd Party Service Partners</value>
+    </labels>
+    <labels>
+        <fullName>giic_ShippingCharge</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Shipping Charge</shortDescription>
+        <value>Shipping Charge</value>
+    </labels>
+    <labels>
+        <fullName>giic_SubCat1ReportId</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>giic_SubCat1ReportId</shortDescription>
+        <value>00O0D000000W8jlUAC</value>
+    </labels>
+    <labels>
+        <fullName>giic_SubCat2ReportId</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>giic_SubCat2ReportId</shortDescription>
+        <value>00O0D000000W8jqUAC</value>
+    </labels>
+    <labels>
+        <fullName>giic_TransOrderBatchCronExp</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>giic_TransOrderBatchCronExp</shortDescription>
+        <value>0 0 12 ? * SUN *</value>
+    </labels>
+    <labels>
+        <fullName>giic_Warehouse_Name_For_SO_If_SQ_Null</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Warehouse Name For SO If SQ Null</shortDescription>
+        <value>JMS Washington - Manifold</value>
+    </labels>
+    <labels>
+        <fullName>giic_manifold_warehouse</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>giic_manifold_warehouse</shortDescription>
+        <value>JMS Washington - Manifold</value>
+    </labels>
+    <labels>
+        <fullName>giic_warehouseNameForSO</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Warehouse Name For SO If SQ Not Null</shortDescription>
+        <value>JMS Washington - Wylie</value>
+    </labels>
+    <labels>
+        <fullName>giic_wylie_warehouse</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>giic_wylie_warehouse</shortDescription>
+        <value>JMS Washington - Wylie</value>
+    </labels>
+    <labels>
+        <fullName>itemAddedToCartMessage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Item added to cart message</shortDescription>
+        <value>Item added to cart</value>
+    </labels>
+    <labels>
+        <fullName>serviceTicketChargeForProduct</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>serviceTicketChargeForProduct</shortDescription>
+        <value>Additional charge associated with Service Ticket Product</value>
+    </labels>
+</CustomLabels>

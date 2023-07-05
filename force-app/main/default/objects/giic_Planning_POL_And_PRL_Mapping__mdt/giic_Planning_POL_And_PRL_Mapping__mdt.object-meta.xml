@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Field Maping between Purchase Order Line and Purchase Requistion Line.</description>
+    <label>Planning POL And PRL Mapping</label>
+    <pluralLabel>Planning POL And PRL Mapping</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

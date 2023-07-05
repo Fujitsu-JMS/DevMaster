@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Fedex &amp; PLS</label>
+    <protected>true</protected>
+    <values>
+        <field>giic_Account_Number__c</field>
+        <value xsi:type="xsd:string">740561073</value>
+    </values>
+    <values>
+        <field>giic_CLIENT_KEY__c</field>
+        <value xsi:type="xsd:string">l7e3b6ec7a991d44388051f3f74cff50fb</value>
+    </values>
+    <values>
+        <field>giic_CLIENT_SECRET__c</field>
+        <value xsi:type="xsd:string">05bfe6c8a1b642c6bbff5602c611d7f0</value>
+    </values>
+    <values>
+        <field>giic_Endpoint_URL__c</field>
+        <value xsi:type="xsd:string">https://apis-sandbox.fedex.com</value>
+    </values>
+    <values>
+        <field>giic_Fedex_Packaging_Type__c</field>
+        <value xsi:type="xsd:string">YOUR_PACKAGING</value>
+    </values>
+    <values>
+        <field>giic_Fedex_Pickup_Type__c</field>
+        <value xsi:type="xsd:string">USE_SCHEDULED_PICKUP</value>
+    </values>
+    <values>
+        <field>giic_Integration_Type__c</field>
+        <value xsi:type="xsd:string">FEDEX</value>
+    </values>
+    <values>
+        <field>giic_OAUTH_Endpoint__c</field>
+        <value xsi:type="xsd:string">https://apis-sandbox.fedex.com/oauth/token</value>
+    </values>
+    <values>
+        <field>giic_PASSWORD__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>giic_PLSCLIENTKEY__c</field>
+        <value xsi:type="xsd:string">7e9914a3a73265593ec0fd4450b90ee56119851817d82b7de64bbaf16b5f5834</value>
+    </values>
+    <values>
+        <field>giic_PLSCLIENTSECRET__c</field>
+        <value xsi:type="xsd:string">5c53566862c23bc57e9b0c5c0ac3f54408faf994956d1fd15788f93211270bb5</value>
+    </values>
+    <values>
+        <field>giic_PLSEndpoint_URL__c</field>
+        <value xsi:type="xsd:string">https://ltl.uat.plsthree.pro/restful/api/shipment/book</value>
+    </values>
+    <values>
+        <field>giic_PLSOAUTHEndpoint__c</field>
+        <value xsi:type="xsd:string">https://ltl.uat.plsthree.pro/restful/oauth/token</value>
+    </values>
+    <values>
+        <field>giic_PLSPASSWORD__c</field>
+        <value xsi:type="xsd:string">P96FSZ1daJ5da2h</value>
+    </values>
+    <values>
+        <field>giic_PLSUSERNAME__c</field>
+        <value xsi:type="xsd:string">gloviaapi</value>
+    </values>
+    <values>
+        <field>giic_USERNAME__c</field>
+        <value xsi:nil="true"/>
+    </values>
+</CustomMetadata>

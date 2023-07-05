@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>ProdInventory_MaxQnty</label>
+    <protected>false</protected>
+    <values>
+        <field>giic_DeActivated__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>giic_ExternalField__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>giic_ExternalSObject__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>giic_IsDataTypeCheck__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>giic_IsErrorMapping__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>giic_IsExternal__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>giic_IsParentField__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>giic_IsSourceField__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>giic_SourceField__c</field>
+        <value xsi:type="xsd:string">giic_MaxQtyCalculated__c</value>
+    </values>
+    <values>
+        <field>giic_SourceObject__c</field>
+        <value xsi:type="xsd:string">gii__ProductInventory__c</value>
+    </values>
+    <values>
+        <field>giic_TargetField__c</field>
+        <value xsi:type="xsd:string">gii__DemandQuantity__c</value>
+    </values>
+    <values>
+        <field>giic_TargetObject__c</field>
+        <value xsi:type="xsd:string">gii__DemandOrder__c</value>
+    </values>
+</CustomMetadata>

@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Email_Alert_on_Integrity_Record_Rejection</fullName>
+        <description>Email Alert on Integrity Record Rejection</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>afhsales@jmsmucker.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/JMS_Equipment_Integrity_Rejected_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Alert_on_NAM_Record_Rejection</fullName>
+        <description>Email Alert on NAM Record Rejection</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>afhsales@jmsmucker.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/JMS_NAM_Trade_Rejected_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Alert_on_Record_Rejection</fullName>
+        <description>Email Alert on Record Rejection</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>afhsales@jmsmucker.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/JMS_RSM_Rejection_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Final_Approved_Notification</fullName>
+        <description>Final Approved Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>afhsales@jmsmucker.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/JMS_Final_Approval_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>JMS_ER_Recalled_Notification</fullName>
+        <description>ER Recalled Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>afhsales@jmsmucker.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/JMS_ERF_Recall_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>JMS_Equipment_Integrity_Approved_Notification_To_Owner</fullName>
+        <description>Equipment Integrity Approved Notification To Owner</description>
+        <protected>false</protected>
+        <recipients>
+            <type>accountOwner</type>
+        </recipients>
+        <senderAddress>afhsales@jmsmucker.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Equipment_Integrity_Approved_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>JMS_NAM_Trade_Approved_Notification_To_Owner</fullName>
+        <description>NAM &amp; Trade Approved Notification To Owner</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>afhsales@jmsmucker.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/JMS_NAM_Trade_Approved_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>JMS_RSM_Approved_Notification_To_Owner</fullName>
+        <description>RSM Approved Notification To Owner</description>
+        <protected>false</protected>
+        <recipients>
+            <type>accountOwner</type>
+        </recipients>
+        <senderAddress>afhsales@jmsmucker.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/JMS_RSM_Approved_Notification</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>EI_Approval_Rejected</fullName>
+        <field>JMS_Equipment_Integrity_Approval_Status__c</field>
+        <literalValue>Rejected</literalValue>
+        <name>EI Approval Rejected</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>JMS_EI_Approval_Status_Submitted</fullName>
+        <field>JMS_Equipment_Integrity_Approval_Status__c</field>
+        <literalValue>Submitted</literalValue>
+        <name>EI Approval Status Submitted</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>JMS_Overall_Status_Completed</fullName>
+        <field>JMS_Overall_Status__c</field>
+        <literalValue>Completed</literalValue>
+        <name>Overall Status Completed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>JMS_Overall_Status_Pending_Approvals</fullName>
+        <field>JMS_Overall_Status__c</field>
+        <literalValue>InProgress - Pending Approvals</literalValue>
+        <name>Overall Status Pending Approvals</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>JMS_Overall_Status_Rejected</fullName>
+        <field>JMS_Overall_Status__c</field>
+        <literalValue>InProgress - Rejected</literalValue>
+        <name>Overall Status Rejected</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>JMS_RSM_Approval_Status_Approved</fullName>
+        <field>JMS_RSM_approval_Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>RSM Approval Status Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>JMS_RSM_Approved</fullName>
+        <field>JMS_RSM_Approved__c</field>
+        <literalValue>1</literalValue>
+        <name>RSM Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>JMS_Reset_RSM_Approved</fullName>
+        <field>JMS_RSM_Approved__c</field>
+        <literalValue>0</literalValue>
+        <name>Reset RSM Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>JMS_Update_EI_Approval_status_Approved</fullName>
+        <field>JMS_Equipment_Integrity_Approval_Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>Update EI Approval status Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>JMS_Update_EI_Boolean_Approved</fullName>
+        <field>JMS_Equipment_Integrity_Approved__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Equipment Integrity Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>JMS_Update_EI_Status_Rejected</fullName>
+        <field>JMS_Equipment_Integrity_Approval_Status__c</field>
+        <literalValue>Rejected</literalValue>
+        <name>Update EI Status Rejected</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>JMS_Update_Equipment_Integrity_Approved</fullName>
+        <field>JMS_Equipment_Integrity_Approved__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Equipment Integrity Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>JMS_Update_Equipment_Integrity_Submitted</fullName>
+        <field>JMS_Equipment_Integrity_Approval_Status__c</field>
+        <literalValue>Submitted</literalValue>
+        <name>Update Equipment Integrity Submitted</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>JMS_Update_NAM_Approval_Approved</fullName>
+        <field>NAM_Approved__c</field>
+        <literalValue>1</literalValue>
+        <name>Update NAM Approval Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>JMS_Update_NAM_Approval_Submitted</fullName>
+        <field>NAM_approval_Status__c</field>
+        <literalValue>Submitted</literalValue>
+        <name>Update NAM Approval Submitted</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>JMS_Update_NAM_Status_Rejected</fullName>
+        <field>NAM_approval_Status__c</field>
+        <literalValue>Rejected</literalValue>
+        <name>Update NAM Status Rejected</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>JMS_Update_OverallStatus_New</fullName>
+        <field>JMS_Overall_Status__c</field>
+        <literalValue>New</literalValue>
+        <name>Update OverallStatus New</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>JMS_Update_Status_Active_Pending_NAM_Tra</fullName>
+        <field>JMS_Status__c</field>
+        <literalValue>Active - Pending NAM</literalValue>
+        <name>Update Status Active - Pending NAM</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>JMS_Update_Status_Completed</fullName>
+        <field>JMS_Status__c</field>
+        <literalValue>Completed</literalValue>
+        <name>Update Status Completed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>JMS_Update_Status_Pending_EI_Pending</fullName>
+        <field>JMS_Status__c</field>
+        <literalValue>Active - Pending Equipment Integrity</literalValue>
+        <name>Update Status Pending EI Pending</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>JMS_Update_Status_RSM_Pending</fullName>
+        <field>JMS_Status__c</field>
+        <literalValue>Active - Pending RSM</literalValue>
+        <name>Update Status RSM Pending</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>JMS_Update_Status_Rejected_For_EI</fullName>
+        <field>JMS_Status__c</field>
+        <literalValue>Rejected By Equipment Integrity</literalValue>
+        <name>Update Status Rejected For EI</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>JMS_Update_Status_Rejected_For_RSM</fullName>
+        <field>JMS_Status__c</field>
+        <literalValue>Rejected By RSM</literalValue>
+        <name>Update Status Rejected For RSM</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>JMS_Update_Status_Rejected_For_Trade</fullName>
+        <field>JMS_Status__c</field>
+        <literalValue>Rejected By Trade</literalValue>
+        <name>Update Status Rejected For Trade</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>JMS_Update_Status_Rejected_NAM</fullName>
+        <field>JMS_Status__c</field>
+        <literalValue>Rejected By NAM</literalValue>
+        <name>Update Status Rejected NAM</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>JMS_Update_SubStatus_Draft</fullName>
+        <field>JMS_Status__c</field>
+        <literalValue>Draft</literalValue>
+        <name>Update Sub Status Draft</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>JSM_RSM_approval_Status</fullName>
+        <field>JMS_RSM_approval_Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>RSM approval Status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>RSM_Approval_Status_Submitted</fullName>
+        <field>JMS_RSM_approval_Status__c</field>
+        <literalValue>Submitted</literalValue>
+        <name>RSM Approval Status Submitted</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>RSM_approval_Status_Rejected</fullName>
+        <field>JMS_RSM_approval_Status__c</field>
+        <literalValue>Rejected</literalValue>
+        <name>RSM approval Status Rejected</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_EI_Approved</fullName>
+        <field>JMS_Equipment_Integrity_Approved__c</field>
+        <literalValue>1</literalValue>
+        <name>Update EI Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_NAM_Status_Approved</fullName>
+        <field>NAM_approval_Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>Update NAM Status Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+</Workflow>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Equipment Integrity</label>
+    <protected>false</protected>
+    <values>
+        <field>JMS_Equipment_Integrity_Approver_Name__c</field>
+        <value xsi:type="xsd:string">Equipintegrity EI</value>
+    </values>
+    <values>
+        <field>JMS_Equipment_Integrity_Email__c</field>
+        <value xsi:type="xsd:string">shivdeep.gupta.us@fujitsu.com</value>
+    </values>
+    <values>
+        <field>JMS_NAM_Approver_Name__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>JMS_NAM_Email__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>JMS_User_Role__c</field>
+        <value xsi:type="xsd:string">Equipment Integrity</value>
+    </values>
+</CustomMetadata>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Annual Volume</label>
+    <protected>false</protected>
+    <values>
+        <field>Is_Number_Datatype__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>JMS_Constant_Value__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>JMS_IsActive__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>JMS_Object_Type__c</field>
+        <value xsi:type="xsd:string">JMS_Campaign_Target_Staging__c</value>
+    </values>
+    <values>
+        <field>JMS_SFDC_Object__c</field>
+        <value xsi:type="xsd:string">Opportunity Product</value>
+    </values>
+    <values>
+        <field>JMS_SF_Api_Name__c</field>
+        <value xsi:type="xsd:string">Quantity</value>
+    </values>
+    <values>
+        <field>JMS_Staging_Api_Field__c</field>
+        <value xsi:type="xsd:string">JMS_Annual_Volume__c</value>
+    </values>
+</CustomMetadata>
