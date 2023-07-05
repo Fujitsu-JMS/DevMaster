@@ -180,7 +180,7 @@ return status;*/
         Http http = new Http();
         response = http.send(request);
         
-        System.debug('Status Code' + response.getStatusCode());
+        System.debug('Status Code : ' + response.getStatusCode());
         String responseReceived = response.getBody();
         if (response.getStatusCode() == 200) {
             // Update the record with data from the response
