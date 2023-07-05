@@ -1,0 +1,29 @@
+<apex:page Controller="giic_generatePDFLAbelController" renderAs="pdf" showHeader="false" sidebar="false" standardStylesheets="false" applyBodyTag="false" applyHtmlTag="false">
+    <html>
+        <head>
+            <style>
+                @page{
+                    size: 3in 2in !important; /*width height*/
+                    margin: 0.10px;
+                }
+                img {
+                    height: 60px;
+                    width: 170px;
+                }
+            </style>
+        </head>
+        <body>
+            <apex:variable var="cntPG" value="{!1}" /> 
+            <apex:repeat value="{!myObjects}" var="obj">
+                <div style="{!if(cntPG < myObjects.size, 'page-break-after:always;','page-break-after:avoid;')}"> 
+                    <apex:outputField styleClass="img" value="{!obj.gii__Product__r.giic_Picklist_Detail_Barcode_Image__c}"/>
+                    <span style="font-size:9pt;font-style:normal;font-weight:normal;display:block;"><apex:outputText value="{!obj.gii__Product__r.gii__Description__c}"/></span>
+                    <span style="font-size:9pt;font-style:normal;font-weight:normal;display:block;"><apex:outputText value="{!obj.gii__Product__r.gii__PrimarySupplier__r.name}"/></span>
+                    <span style="font-size:9pt;font-style:normal;font-weight:normal;display:block;"><apex:outputText value="{!obj.gii__SalesOrder__r.name}"/></span>
+                    <span style="font-size:9pt;font-style:normal;font-weight:normal;display:block;"><apex:outputText value="{!obj.gii__TransferOrder__r.name}"/></span>
+                    <apex:variable var="cntPG" value="{!cntPG+1}"/>
+                </div>
+            </apex:repeat>
+        </body>
+    </html>
+</apex:page>

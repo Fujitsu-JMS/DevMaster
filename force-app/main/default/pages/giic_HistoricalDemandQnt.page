@@ -1,0 +1,2 @@
+<apex:page standardController="gii__ProductInventory__c" extensions="giic_HistoricalDemandQntCalBatchExecute" recordSetVar="inv" action="{!runBatch}">
+</apex:page>
